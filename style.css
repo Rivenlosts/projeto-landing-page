@@ -1,0 +1,143 @@
+*  {
+    
+    margin: 0px;
+    color: black;
+    font-family: 'inter';
+}
+
+#logo {
+ margin-left:  50px;
+ margin-top: 50px;;
+}
+
+
+#Titulo-Menu-superior {
+
+    margin-left: 150px;
+    margin-top: 50px;
+    color: white;
+}
+#texto-Menu-Superior {
+    margin-left: 150px;
+    margin-top: 15px;
+    padding-bottom: 100px;
+    color: white;       
+}
+#menusuperior{
+    background-image: url(imagens/fundoimg.svg);
+    background-color: black;
+    color: blue
+
+}
+
+#Menuinformacional {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+.icones {
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+#secaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoinformativo { 
+    display: flex;
+    align-items: center;
+
+}
+
+#titulovideo {
+    color: #247BA0;
+}
+
+#video {
+    margin: 50px 25px 50px 150px;
+
+}
+
+#carrossel {
+    background-color: #247BA0;  
+    padding: 55px;
+}
+
+#titulocarrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#divcards{
+    margin-top:  25px;;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#SetaEsquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform:translateY(-7px);
+    transition-duration: 0.10;
+}
+
+#Formulario{
+    text-align: center;
+
+}
+
+#TituloFormulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838
+
+}
+input{
+    width: 300px;
+    height: 30px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+button{
+    background-color: #247ba0;
+    height: 30px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+    button:hover{
+        background-color: #1a5067;
+        color: white;
+        transform:translateY(-7px);
+        box-shadow: 0px 15px 20px #031c2834;
+        transition-duration: 0.5;
+
+    }
